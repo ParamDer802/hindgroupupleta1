@@ -1,0 +1,1453 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Hind Group Upleta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <!--<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
+    <!-- Tempusdominus Bootstrap 4 -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">-->
+    <!-- JQVMap -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/jqvmap/jqvmap.min.css">-->
+    <!-- DataTables -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">-->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">-->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">-->
+    <!-- Select2 -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/select2/css/select2.min.css">-->
+    <!-- CodeMirror -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/codemirror/codemirror.css">-->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/codemirror/theme/monokai.css">-->
+    <!-- Bootstrap Color Picker -->
+    <!-- <link href="https://fonts.cdnfonts.com/css/a-auto-signature" rel="stylesheet"> -->
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css">-->
+    <!-- icheck bootstrap -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">-->
+    <!-- Theme style -->
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/adminlte.css">
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/carousel.css">
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/owl.carousel.min.css">
+    <!-- overlayScrollbars -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">-->
+    <!-- Daterange picker -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/daterangepicker/daterangepicker.css">-->
+    <!-- summernote -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/summernote/summernote-bs4.min.css">-->
+    <!-- Toastr -->
+    <!--<link rel="stylesheet" href="https://www.platinavitrified.com/assets/plugins/toastr/toastr.min.css">-->
+    <!--alert message-->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css"> -->
+    <link rel="icon" href="https://www.platinavitrified.com/assets/images/Icon.svg">
+    <link rel="stylesheet" type="text/css" href="https://www.platinavitrified.com/assets/css/chat.css">
+    <link href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/d=0/rs=AN8SPfp0QXhhaDDdjg_LgcSqoZiPEzC1tw/m=el_main_css">
+    <link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://www.platinavitrified.com/assets/css/plugins.css">
+<link rel="stylesheet" href="https://www.platinavitrified.com/assets/css/slidestyle.css">
+
+<style>
+    .dyn-label {
+        position: relative;
+        padding-top: 24px;
+    }
+    .dyn-label > input {
+        display: block;
+        width:100%;
+        /* padding: 2px 8px; */
+        border: 1px solid #ccc;
+    }
+    .dyn-label input::-webkit-input-placeholder {
+        color: #ccc;
+    }
+    .dyn-label > input:focus {
+        outline: none;
+    }
+    .dyn-label > label {
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #333;
+        transition: all .3s ease-in-out;
+        cursor:text;
+    }
+    input:placeholder-shown + label {
+        color: transparent;
+        left: 9px;
+        top: 27px;
+    }
+    .material > input {
+        border:none;
+        border-bottom: 1px solid white;
+    }
+    .material > label {
+        color: white;
+        /* left: 9px; */
+    }
+    input {
+        display: block;
+        width: 100%;
+        border: none;
+        color:white;
+        border-bottom: 1px solid #bfbfbf;
+        box-sizing: border-box;
+        font-family: Poppins;
+        /* font-weight: 700; */
+        /* font-size: 24px; */
+        transition: .3s ease;
+        -moz-transition: .3s ease;
+        -webkit-transition: .3s ease;
+        -o-transition: .3s ease;
+        -ms-transition: .3s ease;
+        /* padding-top: 30px;
+        padding-bottom: 5px; */
+        -webkit-appearance: none;
+        background: 0 0;
+    }
+    /* input:placeholder-shown+label {
+        top: -22px;
+        font-size: 17px;
+        font-weight: 500;
+    } */
+    input+label {
+        position: absolute;
+        transition: .25s ease;
+        -moz-transition: .25s ease;
+        -webkit-transition: .25s ease;
+        -o-transition: .25s ease;
+        -ms-transition: .25s ease;
+        /* left: 0; */
+        top: 0px;
+        font-size: 17px;
+        font-weight: 700;
+        /* color: #888; */
+    }
+    label:not(.form-check-label):not(.custom-file-label) {
+        font-weight: 500;
+    }
+    input:focus{
+        outline:none;
+    }
+</style>
+</head>
+<body class="custom__cursor"><!--class="sidebar-mini layout-fixed"-->
+<div id="contact"></div>
+    <div class="wrapper">
+        <!-- <div class="headerhome__area three"> -->
+
+    <nav>
+         <!--<div class="container">-->
+        <div class="wrapper1">
+          <div class="logo">
+           
+               
+                <a href="/"><img class="platina1" src="C:\Users\derdi\Downloads\hindlogo-removebg-preview.png" style="height:50px;left:inherit;" /></a>
+            
+        </div>
+
+          
+        
+        
+        
+        <input type="radio" name="slider" id="menu-btn">
+          
+          
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li class="active"><a href="/">Home</a></li>
+          
+
+            <li class=" ">
+              <a href="#" class="desktop-item">Company Profile</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Company Profile</label>
+              <ul class="drop-menu">
+              <li><a href="profile.html">Profile</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="journey.html">Our Journey</a></li>
+              </ul>
+            </li>
+
+            <li class=""><a href="product.html">Product</a>
+            </li>
+
+
+            <li class="">
+               
+                  
+                  <li><a href="calculater.html">Tiles Calculator</a></li>
+                </ul>
+              </li>
+
+            <li class=""><a href="contact.html">Contact Us</a></li>
+
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+        <!--</div>-->
+      </nav>
+<!-- </div> -->
+<body class="hold-transition">
+    <main class="main-root">
+        <div id="dsn-scrollbar">
+            <div class="main-content">
+                <div class="wrapper">
+                    <section class="headerIntro slider-main-mob" style="padding:0px 0px 20px">
+                            <header class="main-slider  has-horizontal p-relative w-100 h-100-v dsn-header-animation slider-main-mob">
+                                <div class="content-slider p-relative w-100 h-100 over-hidden v-dark-head">
+                                    <div class="bg-container  dsn-hero-parallax-img p-relative w-100 h-100">
+                                        <div class="slide-inner h-100">
+                                            <div class="swiper-wrapper">
+                                                                                            <div class="slide-item swiper-slide over-hidden">
+                                                    <div class="image-bg cover-bg w-100 h-100 " data-overlay="2"
+                                                        data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
+                                                        <img class="cover-bg-img" src="C:\Users\derdi\Downloads\IMG_4243 (1).JPG"
+                                                        data-dsn-src="C:\Users\derdi\Downloads\IMG_4243 (1).JPG" alt="">
+                                                    </div>
+                                                    <div class="slide-content p-absolute">
+                                                        <div class="content p-relative">
+                                                            <p class="mt-20 description maintitle" >Hind</p>
+                                                            <!-- <hr class="mt-0 mb-0" /> -->
+                                                            <div class="title1 effect-ajax">
+                                                                <h2 class="title user-no-selection d-inline-block slider-font" style=" margin-left: 25px;">
+                                                                    <div class="effect-ajax max-w615" 
+                                                                        data-dsn-ajax="slider">Group Upleta</div>
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="slide-item swiper-slide over-hidden">
+                                                    <div class="image-bg cover-bg w-100 h-100 " data-overlay="2"
+                                                        data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
+                                                        <img class="cover-bg-img" src="C:\Users\derdi\Downloads\7835210a-ee2e-41f7-a91a-470d210d88b5.jpg"
+                                                        data-dsn-src="C:\Users\derdi\Downloads\7835210a-ee2e-41f7-a91a-470d210d88b5.jpg" alt="">
+                                                    </div>
+                                                    <div class="slide-content p-absolute">
+                                                        <div class="content p-relative">
+                                                            <p class="mt-20 description maintitle" >Hind</p>
+                                                            <!-- <hr class="mt-0 mb-0" /> -->
+                                                            <div class="title1 effect-ajax">
+                                                                <h2 class="title user-no-selection d-inline-block slider-font" style=" margin-left: 25px;">
+                                                                    <div class="effect-ajax max-w615" 
+                                                                        data-dsn-ajax="slider">Mosaic Tiles</div>
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="slide-item swiper-slide over-hidden">
+                                                    <div class="image-bg cover-bg w-100 h-100 " data-overlay="2"
+                                                        data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
+                                                        <img class="cover-bg-img" src="C:\Users\derdi\Downloads\IMG_1270.JPG"
+                                                        data-dsn-src="C:\Users\derdi\Downloads\IMG_1270.JPG" alt="">
+                                                    </div>
+                                                    <div class="slide-content p-absolute">
+                                                        <div class="content p-relative">
+                                                            <p class="mt-20 description maintitle" >Hind</p>
+                                                            <!-- <hr class="mt-0 mb-0" /> -->
+                                                            <div class="title1 effect-ajax">
+                                                                <h2 class="title user-no-selection d-inline-block slider-font" style=" margin-left: 25px;">
+                                                                    <div class="effect-ajax max-w615" 
+                                                                        data-dsn-ajax="slider">Bio Energy</div>
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                            <div class="slide-item swiper-slide over-hidden">
+                                                    <div class="image-bg cover-bg w-100 h-100 " data-overlay="2"
+                                                        data-swiper-parallax="50%" data-swiper-parallax-scale="1.1">
+                                                        <img class="cover-bg-img" src="C:\Users\derdi\Downloads\pavement-floor-tile.jpg"
+                                                        data-dsn-src="C:\Users\derdi\Downloads\pavement-floor-tile.jpg" alt="">
+                                                    </div>
+                                                    <div class="slide-content p-absolute">
+                                                        <div class="content p-relative">
+                                                            <p class="mt-20 description maintitle" >Graceful Look</p>
+                                                            <!-- <hr class="mt-0 mb-0" /> -->
+                                                            <div class="title1 effect-ajax">
+                                                                <h2 class="title user-no-selection d-inline-block slider-font" style=" margin-left: 25px;">
+                                                                    <div class="effect-ajax max-w615" 
+                                                                        data-dsn-ajax="slider">Timelessly Modern Design.</div>
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="dsn-slider-content p-absolute h-100 w-100 ">
+                                        <div class="dsn-container d-flex align-items-end "></div>
+                                    </div>
+                                </div>
+                            </header>
+                    </section>
+                    <a href="https://www.youtube.com/watch?v=Y7Zg7OaVAlU&t=1s"><div class="image-fader contentbutton" style="position: absolute;top: 23%;left: 7%;z-index: 9;">
+                        <img class="platina1" src="assets/images/buynow.png" style="height:80px;left:inherit;" />
+                        <img class="platina2 d-none" src="assets/images/paylater.png" style="height:80px;left:inherit;" />
+                    </div></a>
+                    <!-- <div class="contentbutton" style="position: absolute;bottom: 6%;left: 6%;z-index: 9;">
+                        <button class="slidebutton">
+                            <span class="circle buynowhome">
+                            </span>
+                            <a href="https://www.youtube.com/watch?v=Y7Zg7OaVAlU&t=1s" target="_blank"><span class="textbuynow">Buy Now</span></a>
+                            <i class="fa fa-arrow-right" style="position: absolute;top: 40%;font-size: 10px;left: 83%;color:white"></i>
+                        </button>
+                    </div> -->
+                    <div class="spinner">
+                        <div class="data">
+                        <div class="svglogo"></div>
+                        <img src="C:\Users\derdi\Downloads\LOGO-removebg-preview.png" height="110" width="110" class="rotate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="aboutpadding">
+        <div class="bg-about"><!--container-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sign-title">
+                        <h2>About</h2>
+                        <h3>COMPANY</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="title">
+                                <h2>Welcome !</h2>
+                                <h3>TO&#039;HIND UPLETA</h3>
+                            </div>
+                            <p class="aboutcontent-home">Hind Group Upleta is a prominent business group based in Upleta, Gujarat, consisting of two key divisions: Hind Mosaic Tiles and Hind Bio Energy. Hind Mosaic Tiles specializes in providing high-quality mosaic tiles, paver blocks, and parking tiles, known for their durability and aesthetic appeal in construction projects. On the other hand, Hind Bio Energy focuses on sustainable energy solutions, producing biomass briquettes and raw materials like groundnut shells, offering eco-friendly alternatives to traditional fuels. With a strong commitment to quality and sustainability, Hind Group Upleta continues to make significant contributions to both the construction and renewable energy sectors.</p>
+                            <a href="/journey" class="btn btn-outline" style="line-height: 0.5;">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sign-title">
+                        <h2 class="whitefont">Our</h2>
+                        <h3 class="whitefont">BUSINESS</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6"> <div class="product">
+                            <a href="product.html">
+                                <div class="item">
+                                    <img src="C:\Users\derdi\Downloads\logo-png.png" width="150" class="firstimg">
+                                </div>
+                                <div class="item-content p1">
+                                    <p></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="product content">
+                                <h2 class="product-title">TILES & BIOMASS</h2>
+                                <p>We enhance the range of porcelain tiles and also offering composite solutions that extend the visual continuity &amp; incredibly attractive surfaces.</p>
+                                <a href="product.html" class="btn btn-outline whitecolor">
+                                    View More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="product">
+                                <a href="product.html">
+                                    <div class="item">
+                                        <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-06-27 at 7.21.31 PM.jpeg">
+                                    </div>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product">
+                        <a href="product.html">
+                            <div class="item">
+                                <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-06-27 at 7.21.30 PM.jpeg">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="padding: 0px 0px;overflow:hidden;height: 553px;">
+        <div class="bg-discover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sign-title discoverbottom">
+                            <h1 class="discover">Discover</h1>
+                        </div>
+                      <b> <h2 class="timelessbeauty">OBJECTIVES AND VISION</b><BR></h2>
+                       <h3> <I> <b>The objectives are goals establish to guide the efforts of the company to each of its components. 
+                            Objectives are the goals which a business unit wants to achieve a period of time.Objectives may 
+                            be general or specific.<BR>
+                        
+                            Without objectives any company does not do work. The main objective of HIND GROUP UPLRTA is <BR>
+                            1.To provide perfect quality. <BR>
+                            2.Reasonable price of tiles to the customers <BR>
+                            3.Development of company in every stage <BR>
+                            4.To cover big market share. <BR>
+<br>
+                            The company believes in continuous improvement by innovations & R & D in all operational plants. 
+                            And employees development should also be taken into consideration.</h3> </b> </I>
+                    </div>
+                </div>
+                
+         </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="d-flex" style="padding: 0px 0px;">
+        <div class="carving carvingcoll">
+            <img src="C:\Users\derdi\Downloads\Untitled design (1).png" height="1098px" width="1073px">
+            <div class="collectiontext">COLLECTION</div>
+            <div class="line32"></div>
+        </div>
+        <div class="spinnercarvi">
+            <div class="data">
+                <div class="svglogo2"></div>
+                <img src="C:\Users\derdi\Downloads\LOGO-removebg-preview.png" height="110" width="111" class="rotate viewmobcollect">
+            </div>
+        </div>
+        <!-- <div class="col-md-6"> -->
+                    <div class="mySlides">
+                <div class="Collection">
+                    <div class="carvingtext text">Mosaic Tiles</div>
+                    <!-- <div class="collectiontext"> COLLECTION</div> -->
+                </div>
+                <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 11.35.44 AM.jpeg" style="height: 80%;width: 48%;position: absolute;top:10%;right: 7%;"><!--left: -10%;-->
+            </div>
+                    <div class="mySlides">
+                <div class="Collection">
+                    <div class="carvingtext text">Parking Tiles</div>
+                    <!-- <div class="collectiontext"> COLLECTION</div> -->
+                </div>
+                <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 11.35.44 AM (3).jpeg" style="height: 80%;width: 48%;position: absolute;top:10%;right: 7%;"><!--left: -10%;-->
+            </div>
+                    <div class="mySlides">
+                <div class="Collection">
+                    <div class="carvingtext text">Paver Block</div>
+                    <!-- <div class="collectiontext"> COLLECTION</div> -->
+                </div>
+                <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 11.35.45 AM.jpeg" style="height: 80%;width: 48%;position: absolute;top:10%;right: 7%;"><!--left: -10%;-->
+            </div>
+                    <div class="mySlides">
+                <div class="Collection">
+                    <div class="carvingtext text">Biomass Briqquets</div>
+                    <!-- <div class="collectiontext"> COLLECTION</div> -->
+                </div>
+                <img src="C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 11.35.44 AM (1).jpeg" style="height: 80%;width: 48%;position: absolute;top:10%;right: 7%;"><!--left: -10%;-->
+            </div>
+        
+    </section>
+    <div style="text-align:center;display:none">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+  
+    <section style="min-height: 450px;">
+        <div class="container">
+            <div class="row">
+               
+                    <div class="col-md-6">
+                        <div><span class="mileheading">Milestones <br/></span>
+                        <div class="milesubtitle">THAT WE PROUDLY</div></div>
+                        <div class="milelongcontent">We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="row statistic">
+                                                     <div class="col-lg-6 col-md-6 col-sm-6 col-6 ptb-15 p-3 counterborder1">
+                              <div class="dsn-up" style="opacity: 1; transform: translate(0px, 0px);">
+                                  <h5 class="number mb-1">
+                                      <div class="has-animate-number counternumber my-fnt scroll-counter" data-counter-time="900">900</div>
+                                      <span class="counterplus">+</span>
+                                      <span class="TilesDesign1">TILES DESIGN</span>
+                                  </h5>
+                              </div>
+                          </div>
+                                                      <div class="col-lg-6 col-md-6 col-sm-6 col-6 ptb-15 p-3 counterborder2">
+                              <div class="dsn-up" style="opacity: 1; transform: translate(0px, 0px);">
+                                  <h5 class="number mb-1">
+                                      <div class="has-animate-number counternumber my-fnt scroll-counter" data-counter-time="600">600</div>
+                                      <span class="counterplus">+</span>
+                                      <span class="TilesDesign1">HAPPY CLIENTS</span>
+                                  </h5>
+                              </div>
+                          </div>
+                                                      <div class="col-lg-6 col-md-6 col-sm-6 col-6 ptb-15 p-3 counterborder3">
+                                                        <div class="dsn-up" style="opacity: 1; transform: translate(0px, 0px);">
+                                                            <h5 class="number mb-1">
+                                                                <div class="has-animate-number counternumber my-fnt scroll-counter" data-counter-time="51">100</div>
+                                                                <span class="counterplus">+</span>
+                                                                <span class="TilesDesign1">BEST WORKERS</span>
+                                                            </h5>
+                                                        </div>
+                          </div>
+                                                      <div class="col-lg-6 col-md-6 col-sm-6 col-6 ptb-15 p-3 counterborder4">
+                              <div class="dsn-up" style="opacity: 1; transform: translate(0px, 0px);">
+                                  <h5 class="number mb-1">
+                                      <div class="has-animate-number counternumber my-fnt scroll-counter" data-counter-time="450">450</div>
+                                      <span class="counterplus">+</span>
+                                      <span class="TilesDesign1">PROJECT FINISH</span>
+                                  </h5>
+                              </div>
+                          </div>
+                                                        <div class="Line22"></div>
+                        <div class="Line23"></div>
+                          
+                      </div>
+                    </div>
+               
+            </div>
+            
+            
+        </div>
+    </section>
+    <section class="bg-black" id="demos">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sign-title">
+                        <h2 class="whitefont">Social</h2>
+                        <h3 class="whitefont">Network</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.18.05 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.18.05 PM (1).jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.09.42 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.18.05 PM (2).jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.15.51 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.14.08 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.12.36 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src ="C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 11.35.44 AM (3).jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                    <div class="item">
+                        <h4><img class = "d-block" style="height: 100% !important;"
+                        src = "C:\Users\derdi\Downloads\WhatsApp Image 2024-11-24 at 10.29.58 PM.jpeg"
+                        alt = "First slide"></h4>
+                    </div>
+                                </div>
+            </div>
+        </div>
+    </section>
+    <section class="whyus">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex">
+                                    <div class="col-md-4 p-0">
+                        <div class="whychooseus p-1">
+                            
+                            <h6 class="mb1"><b>HIND MOSAIC TILES</b></h6>
+                            <p class="taxtilecontent">Representing the unity and innovation of its diverse businesses, Hind Group Upleta aims to deliver quality and sustainability.</p>
+                        </div>
+                    </div>
+                                   <div class="col-md-4 p-0">
+                        <div class="whychooseus p-1">
+                           
+                            <h6 class="mb1"><b>HIND GROUP UPLETA</b></h6>
+                            <p class="taxtilecontent">Past is what speaks for prestige of our brand. Hind is in the top brands’ list for carrying the satisfaction to clients.</p>
+                        </div>
+                    </div>
+                                   <div class="col-md-4 p-0">
+                        <div class="whychooseus p-1">
+                          
+                            <h6 class="mb1"><b> HIND BIO ENERGY</b></h6>
+                            <p class="taxtilecontent">Reflecting its commitment to sustainability and eco-friendly energy solutions through biomass briquettes.</p>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container">
+            <!-- <div class="row"> -->
+                <form id="contactform" action="https://www.platinavitrified.com/contactformadd" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="_token" value="ISmQeRChWVfBGPYcVdyE7Gwau0KBrm45Diew98g6">                    <div class="col-md-12">
+                        <div class="sign-title">
+                            <h2 class="whitefont fsize">Stay Connected</h2>
+                            <h3 class="whitefont fsize">Get in touch</h3>
+                        </div>
+                        <div class="gettouch fieldmessage">
+                            <div class="col-md-4">
+                                <div class="form-group dyn-label material">
+                                    <input type="text" name="name" id="name" placeholder="Your Name*" required="">
+                                    <label for="name">Your Name*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group dyn-label material">
+                                    <input type="email" name="email" id="email" placeholder="Your Email*" required="">
+                                    <label for="email">Your Email*</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group dyn-label material">
+                                    <input type="text" name="number" id="number" placeholder="Your Number*" required="">
+                                    <label for="number">Your Number*</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-5 mb-5">
+                            <div class="form-group dyn-label material">
+                                <input type="text" name="help" id="message" placeholder="Your Message">
+                                <label for="message">Your Message</label>
+                            </div>
+                             <input type="hidden" name="type" value="footer">
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="text-align:-webkit-center">
+                        <input type="submit" class="buttonsend" value="send">
+                    </div>
+                </form>
+            <!-- </div> -->
+        </div>
+    </section>
+    <div class="bg-black">
+        <section style="padding-bottom: 5px;">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 footercontainer">
+                <div class="col-md-4">
+                    <div class="mb-3"><!--image-fader-->
+                        <img class="light-logo" src="C:\Users\derdi\Downloads\hindlogo-removebg-preview.png" style="height:60%;left:inherit;width:55%" alt="" />
+                        <!--<img class="platina1" src="assets/images/logo1.png" style="height:50px;left:inherit;" />-->
+                        <!--<img class="platina2 d-none" src="assets/images/platina.png" style="height:45px;left:inherit;" />-->
+                    </div>
+        
+                </div>
+                <div class="col-md-4">
+                    <h3 class="footerlinks">Quick Links</h3>
+                    <div class="footerlinkspace">
+                        <img src="C:\Users\derdi\Downloads\circle-right-arrow.png" height="15" width="20"><a href="/" class="whitecolor mx-3">Home</a>
+                    </div>
+                    <div class="footerlinkspace">
+                        <img src="C:\Users\derdi\Downloads\circle-right-arrow.png" height="15" width="20"><a href="aboutus.html" class="whitecolor mx-3">About</a>
+                    </div>
+                    <div class="footerlinkspace">
+                        <img src="C:\Users\derdi\Downloads\circle-right-arrow.png" height="15" width="20"><a href="profile.html" class="whitecolor mx-3">Profile</a>
+                    </div>
+        
+                    <div class="footerlinkspace">
+                        <img src="C:\Users\derdi\Downloads\circle-right-arrow.png" height="15" width="20"><a href="product.html" class="whitecolor mx-3">Product</a>
+                    </div>
+                    <div class="footerlinkspace">
+                        <img src="C:\Users\derdi\Downloads\circle-right-arrow.png" height="15" width="20"><a href="calculater.html" class="whitecolor mx-3">Tile Calculater</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="footerlinks">Contact Us</h3>
+                    <div class="row mobilerow">
+                        <div class="col-md-1 mobileicon"><img src="C:\Users\derdi\Downloads\marker.png" height="15" width="20" class="mx-3"></div>
+                        <div class="col-md-11 mb1 whitecolor mobiletext" style="left:15px"><a href="https://goo.gl/maps/QbiNZ6A1u8vGgZht9">Hind Mosaic Tiles - Kolki Road,  
+        Near Railway Crossing, Upleta-360490
+        Gujarat, India.</a></div>
+                    </div>
+                    <div class="row mobilerow">
+                        <div class="col-md-1 mobileicon"><img src="C:\Users\derdi\Downloads\marker.png" hight="15"  width="20"  class="mx-3"></div>
+                        <div class="col-md-11 mb1 whitecolor mobiletext" style="left:15px"><a href="https://goo.gl/maps/9nhZavjbjTbQMWFu5">Hind Bio Energy - Kolki Road,
+        Near Railway Crossing, 
+        Inside HMT, Upleta, Gujarat 360490.</a></div>
+                    </div>
+                    <div class="row mobilerow">
+                        <div class="col-md-1 mobileicon"><img src="C:\Users\derdi\Downloads\222-2226274_white-email-icon-png-download-mail-symbol-png.png" higth="15" width="20" class="mx-3"></div>
+                        <div class="col-md-11 mb1 whitecolor mobiletext" style="left:15px"><a href="mailto:marketing@platinavitrified.com">hindgroupupleta@gmail.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footerline"></div>
+        <div class="copyrighttext whitecolor">Copyright <img src="C:\Users\derdi\Downloads\Copyright_white.svg.png" height="15" width="20"> 2024 Hind Mosaic Tiles. All Rights Reserved | Powered by Param Der</div>
+        </section>
+        <div class="scroll-to-top">
+        <img src="C:\Users\derdi\Downloads\LOGO-removebg-preview.png" alt="">
+        <div class="box-numper whitecolor">
+            <span>10%</span>
+        </div>
+        </div>
+
+<div class="translate">
+    <span><i class="fa fa-language" aria-hidden="true"></i></span>
+
+    <div id="google_translate_element"></div>
+</div>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></div>
+    </div>
+    <!-- <div class="parallax"></div> -->
+    <!--alert message-->
+    <!-- <script src="https://www.platinavitrified.com/assets/plugins/jquery/jquery.min.js"></script> -->
+    <script src="https://www.platinavitrified.com/assets/js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="https://www.platinavitrified.com/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="https://www.platinavitrified.com/assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+    $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- ChartJS -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/chart.js/Chart.min.js"></script>-->
+    <!-- Sparkline -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/sparklines/sparkline.js"></script>-->
+    <!-- JQVMap -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/jqvmap/jquery.vmap.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>-->
+    <!-- jQuery Knob Chart -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/jquery-knob/jquery.knob.min.js"></script>-->
+    <!-- bootstrap color picker -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>-->
+    <!-- daterangepicker -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/moment/moment.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/daterangepicker/daterangepicker.js"></script>-->
+    <!-- Tempusdominus Bootstrap 4 -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js">-->
+    <!--</script>-->
+    <!-- Summernote -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/summernote/summernote-bs4.min.js"></script>-->
+    <!-- overlayScrollbars -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>-->
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="https://www.platinavitrified.com/assets/js/pages/dashboard.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/owl.carousel.min.js"></script>
+    <!-- <script src="https://www.platinavitrified.com/assets/js/swiper.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/js/plugins.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/js/custom.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/plugins.min.js"></script> -->
+    <!-- DataTables  & Plugins -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables/jquery.dataTables.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/jszip/jszip.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/pdfmake/pdfmake.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/pdfmake/vfs_fonts.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>-->
+    <!-- Select2 -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/select2/js/select2.full.min.js"></script>-->
+    <!-- Summernote -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/summernote/summernote-bs4.min.js"></script>-->
+    <!-- CodeMirror -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/codemirror/codemirror.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/codemirror/mode/css/css.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/codemirror/mode/xml/xml.js"></script>-->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>-->
+    <!-- Toastr -->
+    <!--<script src="https://www.platinavitrified.com/assets/plugins/toastr/toastr.min.js"></script>-->
+    <!-- AdminLTE for demo purposes -->
+    <script src="https://www.platinavitrified.com/assets/js/demo.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/custom.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/plugins.min.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/js/dsn-grid.min.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/js/custom.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/chat.js"></script>
+        <script type="text/javascript">
+        var arcuOptions;
+        //var arCuMessages = ["hello!", "Please visit our best and<br/> greates web site!"];
+        var arCuPromptClosed = false;
+        var arCuDelayFirst = 500;
+        var _arCuTimeOut = null;
+        var arCuDelayFirst = 2000;
+        var arCuTypingTime = 2000;
+        var arCuMessageTime = 4000;
+        var arCuCloseLastMessage = false;
+        var arCuLoop = false;
+        function arCuShowMessage(index){
+            if (arCuPromptClosed){
+                return false;
+            }
+        };
+        function arCuShowMessages(){
+            setTimeout(function(){
+                clearTimeout(_arCuTimeOut);
+                arCuShowMessage(0);
+            }, arCuDelayFirst);
+        }
+        window.addEventListener('load', function(){
+            $('#contact').on('arcontactus.init', function(){
+                arCuShowMessages();
+                $('#contact').addClass('arcuAnimated').addClass('bounceInRight');
+                setTimeout(function(){
+                    $('#contact').removeClass('bounceInRight');
+                }, 1000);
+            });
+            $('#contact').on('arcontactus.successCallbackRequest', function(){
+                setTimeout(function(){
+                    $('#contact').contactUs('closeCallbackPopup');
+                }, 1000);
+            });
+            arcuOptions = {
+                drag: false,
+                reCaptcha: false,
+                buttonIcon: '<svg id="Capa_1" enable-background="new 0 0 512.012 512.012" height="512" viewBox="0 0 512.012 512.012" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m495.266 394.775c11.112-23.435 16.742-48.57 16.742-74.794 0-93.61-74.304-170.285-167.347-174.787-20.968-75.53-89.845-128.213-168.653-128.213-97.047 0-176 78.505-176 175 0 26.224 5.63 51.359 16.742 74.794l-16.451 82.265c-2.094 10.472 7.144 19.728 17.618 17.656l83.279-16.465c20.862 9.896 43.054 15.426 66.17 16.529 29.148 104.951 146.217 157.593 243.452 111.471 91.207 18.032 84.094 16.75 86.189 16.75 9.479 0 16.56-8.686 14.709-17.941zm-385.17-73.6c-3.001-1.534-6.433-2.013-9.737-1.359l-66.24 13.097 13.049-65.25c.663-3.315.187-6.759-1.354-9.77-10.487-20.516-15.806-42.691-15.806-65.912 0-79.953 65.495-145 146-145 62.915 0 118.319 40.91 137.681 99.417-91.706 11.725-160.775 94.472-151.914 189.891-18.075-1.737-35.391-6.787-51.679-15.114zm354.753 74.488 13.049 65.25-66.24-13.097c-3.306-.653-6.736-.175-9.737 1.359-20.516 10.487-42.691 15.806-65.912 15.806-79.953 0-145-65.047-145-145s65.047-145 145-145c80.505 0 146 65.047 146 145 0 23.221-5.318 45.396-15.806 65.912-1.541 3.011-2.017 6.454-1.354 9.77z"/></g></svg>',
+                buttonSize: 'medium',
+                buttonText: false,
+                iconsAnimationSpeed: 800,
+                iconsAnimationPause: 800,
+                menuHeaderText: 'Need help? Contact us!',
+                itemsIconType: 'rounded',
+                countdown: 0,
+                showMenuHeader: true,
+                showHeaderCloseBtn: true,
+                headerCloseBtnColor: '#ffffff',
+                headerCloseBtnBgColor: '#E32227',
+                promptPosition: 'side',
+                theme: '#E32227',
+                style: '',
+                callbackFormFields: {
+                    phone: {
+                        name: 'phone',
+                        enabled: true,
+                        required: true,
+                        type: 'tel',
+                        label: '',
+                        placeholder: "+XXX-XX-XXX-XX-XX"
+                    },
+                    email: {
+                        name: 'email',
+                        enabled: true,
+                        required: true,
+                        type: 'email',
+                        label: '',
+                        maxlength: 80,
+                        placeholder: "email"
+                    },
+                    //gdpr: {
+                    //    name: 'gdpr',
+                    //    enabled: true,
+                    //    required: true,
+                    //    type: 'checkbox',
+                    //    label: 'I agree with <a href="gdpr-rules" target="_blank">GDRP rules</a>',
+                    //}
+                },
+                items: [
+                    {
+                        title: 'Whatsapp',
+                        subTitle: 'Just Click',
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>',
+                        noContainer: true,
+                        href: 'https://wa.me/919825034821',
+                        color: '#25D366',
+                        addons: [
+                            {
+                                //icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>',
+                                href: '#',
+                                title: 'Click to open QR code',
+                                class: 'arcu-qr-addon',
+                                color: '#25D366',
+                                target: '_self',
+                                onClick: function(){
+                                    alert('Item clicked');
+                                    return false;
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        title: 'Messenger',
+                        id: '1',
+                        subTitle: 'Send Message directly',
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>',
+                        href: 'https://www.facebook.com/PlatinaVitrified123',
+                        noContainer: true,
+                        popupContent: $('#popup-1').html(),
+                        color: '#0084FF',
+                        addons: [
+                            {
+                                //icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>',
+                                href: '#',
+                                class: 'arcu-qr-addon',
+                                color: '#000000',
+                                target: '_self',
+                                onClick: function(){
+                                    alert('Item clicked');
+                                    return false;
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        title: 'Instagram',
+                        id: '1',
+                        subTitle: 'Send Message directly',
+                        icon: '<i class="fab fa-instagram"></i>',
+                        href: 'https://www.instagram.com/platinavitrified',
+                        noContainer: true,
+                        popupContent: $('#popup-1').html(),
+                        color: '#DC02D7',
+                        addons: [
+                            {
+                                //icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>',
+                                href: '#',
+                                class: 'arcu-qr-addon',
+                                color: '#000000',
+                                target: '_self',
+                                onClick: function(){
+                                    alert('Item clicked');
+                                    return false;
+                                }
+                            },
+                        ]
+                    },
+                    {
+                        title: 'Email us',
+                        subTitle: 'Send email directly',
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>',
+                        noContainer: true,
+                        href: 'mailto:marketing@platinavitrified.com',
+                        color: '#636363',
+                        addons: [
+                            {
+                                //icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>',
+                                href: '#',
+                                class: 'arcu-qr-addon',
+                                color: '#000000',
+                                target: '_self',
+                                onClick: function(){
+                                    alert('Item clicked');
+                                    return false;
+                                }
+                            },
+                        ]
+                    },
+                ]
+            };
+            // plugin init
+            $('#contact').contactUs(arcuOptions);
+            // demo settings
+            $('#contactus-style').change(function(){
+                arcuOptions.style = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-popup-style').change(function(){
+                arcuOptions.popupAnimation = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-pos').change(function(){
+                arcuOptions.align = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-color').change(function(){
+                arcuOptions.theme = $(this).val();
+                arcuOptions.headerCloseBtnBgColor = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-items-style').change(function(){
+                arcuOptions.itemsAnimation = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-size').change(function(){
+                arcuOptions.buttonSize = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-icon-size').change(function(){
+                arcuOptions.buttonIconSize = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-menu-style').change(function(){
+                if ($(this).val() == 'sidebar'){
+                    arcuOptions.style = $('#contactus-style').val();
+                    $('#popup').hide();
+                    $('#sidebar').show();
+                }else{
+                    arcuOptions.style = '';
+                    $('#popup').show();
+                    $('#sidebar').hide();
+                }
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+            $('#contactus-items-size').change(function(){
+                arcuOptions.menuSize = $(this).val();
+                $('#contact').contactUs('destroy');
+                $('#contact').contactUs(arcuOptions);
+            });
+        });
+    </script>
+    <script>
+    var url=window.location.href;
+    const lastTwo = url.split('/').slice(-1).join('/');
+    if(lastTwo=="admin"){
+        console.log(lastTwo);
+        $("body").removeClass("sidebar-mini layout-fixed");
+        $("body").addClass("login-page");
+    }
+    </script>
+    <script>
+    $('.toastrDefaultSuccess').click(function() {
+        toastr.success('Succesfully Data Updated.')
+    });
+    </script>
+    <script>
+    $('.toastDefaultSuccess').click(function() {
+        toastr.success('Profile Updated Succesfully.')
+    });
+    </script>
+    <script>
+        $(document).ready(function() {
+              $('#owl-demo').owlCarousel({
+                loop: true,
+                margin: 0,
+                autoplay:true,
+                autoplayTimeout: 7000,
+                autoplaySpeed: 5000,
+                //slideSpeed: 300,
+                items:1
+              })
+              let i=1;
+              function swapIcons(){
+                $(".icon1").addClass("d-none");$(".icon2").addClass("d-none");$(".icon3").addClass("d-none");
+                    $(".icon"+i).toggleClass("d-none");
+                    i++
+                    if(i==4)
+                    i=1;
+                    }
+                window.setInterval(swapIcons,1000);
+            })
+    </script>
+    <script>
+        $(document).ready(function() {
+        $(window).scroll(function(e){
+            var scrollTop = $(window).scrollTop();
+            var docHeight = $(document).height();
+            var winHeight = $(window).height();
+            var scrollPercent = (scrollTop) / (docHeight - winHeight);
+            var scrollPercentRounded = Math.round(scrollPercent*100);
+            $('#scrollPercentLabel>span').html(scrollPercentRounded);
+            repositionLabel();
+        });
+        $(window).resize(function(){
+            repositionLabel();
+        });
+        function repositionLabel() {
+            $('#scrollPercentLabel').css({
+                position:'fixed',
+                left: ($(window).width() - $('#scrollPercentLabel').outerWidth()) / 2,
+                top: (($(window).height() - $('#scrollPercentLabel').outerHeight()) / 2) - $('#scrollPercentLabel').height()
+            });
+        }
+        repositionLabel();
+        });
+    </script>
+    <script>
+    $(function() {
+        //Initialize Select2 Elements
+        $('.select2').select2()
+    })
+    </script>
+    <script>
+        let i=1;
+        setInterval(changeImage, 3000);
+        function changeImage() {
+            if(i==1){
+                $(".platina1").fadeIn();
+                $(".platina2").fadeOut();
+            }
+            if(i==2){
+                $(".platina2").removeClass("d-none");
+                $(".platina1").fadeOut();
+                $(".platina2").fadeIn();
+            }
+            i++;
+            if(i==3)
+            i=1;
+        }
+    </script>
+    
+    <script>
+        let j=1;
+        setInterval(buyinbutton, 1200);
+        function buyinbutton() {
+            if(j==1){
+                $(".circle").addClass("buynowhome");
+                $(".textbuynow").html('Pay Later');
+                $(".textbuynow").css("color", "white");
+            }
+            if(j==2){
+                $(".circle").removeClass("buynowhome");
+                $(".textbuynow").html('Buy Now');
+                $(".textbuynow").css("color", "black");
+            }
+            j++;
+            if(j==3)
+            j=1;
+        }
+    </script>
+    <script>
+        "use strict"
+        document.addEventListener("DOMContentLoaded", function() {
+        // You can change this class to specify which elements are going to behave as counters.
+        var elements = document.querySelectorAll(".scroll-counter")
+        elements.forEach(function(item) {
+            // Add new attributes to the elements with the '.scroll-counter' HTML class
+            item.counterAlreadyFired = false
+            item.counterSpeed = item.getAttribute("data-counter-time") / 45
+            console.log(item.counterSpeed);
+            item.counterTarget = +item.innerText
+            console.log(+item.innerText);
+            item.counterCount = 0
+            item.counterStep =  item.counterSpeed //item.counterTarget /
+            item.updateCounter = function() {
+            item.counterCount = item.counterCount + item.counterStep
+            item.innerText = Math.ceil(item.counterCount)
+            if (item.counterCount < item.counterTarget) {
+                setTimeout(item.updateCounter, item.counterSpeed)
+            } else {
+                item.innerText = item.counterTarget
+            }
+            }
+        })
+        // Function to determine if an element is visible in the web page
+        var isElementVisible = function isElementVisible(el) {
+            var scroll = window.scrollY || window.pageYOffset
+            var boundsTop = el.getBoundingClientRect().top + scroll
+            var viewport = {
+            top: scroll,
+            bottom: scroll + window.innerHeight,
+            }
+            var bounds = {
+            top: boundsTop,
+            bottom: boundsTop + el.clientHeight,
+            }
+            return (
+            (bounds.bottom >= viewport.top && bounds.bottom <= viewport.bottom) ||
+            (bounds.top <= viewport.bottom && bounds.top >= viewport.top)
+            )
+        }
+        // Funciton that will get fired uppon scrolling
+        var handleScroll = function handleScroll() {
+            elements.forEach(function(item, id) {
+            if (true === item.counterAlreadyFired) return
+            if (!isElementVisible(item)) return
+            item.updateCounter()
+            item.counterAlreadyFired = true
+            })
+        }
+        // Fire the function on scroll
+        window.addEventListener("scroll", handleScroll)
+        })
+    </script>
+    <script>
+        $(function(){
+            $(window).scroll(function() {
+                //console.log("fhjshfsd");
+                $('.count').each(function () {
+                    console.log(isScrolledIntoView(this))
+                    if (isScrolledIntoView(this) === true) {
+                        $(this).prop('Counter',0).animate({
+                            Counter: $(this).data('count')
+                        }, {
+                            duration: 4000,
+                            easing: 'swing',
+                            step: function (now) {
+                                $(this).text(Math.ceil(now));
+                            }
+                        });
+                    }
+                });
+            });
+        });
+            function isScrolledIntoView(elem) {
+                //console.log("kewrjkew");
+                var docViewTop = $(window).scrollTop();
+                var docViewBottom = docViewTop + $(window).height();
+                //console.log(docViewTop + $(window).height());
+                //console.log($(window).height());
+                var elemTop = $(elem).offset().top;
+                var elemBottom = elemTop + $(elem).height();
+                //console.log(docViewTop);
+              //  console.log(docViewBottom);
+              //  console.log(docViewBottom);
+              //  console.log(elemBottom);
+             //   console.log(elemBottom <= docViewBottom);
+             //   console.log(elemTop >= docViewTop);
+                return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+            }
+        $(document).ready(function () {
+            $('.count').each(function () {
+                $(this).text(0);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#demos .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay:true,
+            slideSpeed: 300,
+            responsiveClass: true,
+            dots: false,
+            //nav:true,
+            responsive: {
+                0: {
+                items: 1,
+                nav: true
+                },
+                600: {
+                items: 3,
+                nav: false
+                },
+                1000: {
+                items: 3,
+                //nav: true,
+                loop: true,
+                margin: 20
+                }
+            }
+            })
+        })
+    </script>
+    <script type="text/javascript">
+    //     function Validate() {
+    //         var password = document.getElementById("1stPassword").value;
+    //         var confirmPassword = document.getElementById("ConfirmPassword").value;
+    //         if (password != confirmPassword) {
+    //             alert("Please enter same password in both");
+    //             return false;
+    //         }
+    //         return true;
+    //     }
+    </script>
+    <!-- Page specific script -->
+    <script>
+    // $(function() {
+    //     $("#example1").DataTable({
+    //         "responsive": true,
+    //         "lengthChange": false,
+    //         "autoWidth": false,
+    //         "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    //     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    //     $('#example2').DataTable({
+    //         "paging": true,
+    //         "lengthChange": false,
+    //         "searching": true,
+    //         "ordering": true,
+    //         "info": true,
+    //         "autoWidth": false,
+    //         "responsive": true,
+    //     });
+    // });
+    </script>
+    <script>
+        // $(function() {
+        //     // Summernote
+        //     $('#summernote').summernote({
+        //         toolbar: [
+        //             // [groupName, [list of button]]
+        //             ['style', ['style', 'bold', 'italic', 'underline', 'clear', ]],
+        //             ['font', ['fontname', 'strikethrough', 'superscript', 'subscript']],
+        //             ['fontsize', ['fontsize']],
+        //             ['color', ['color']],
+        //             ['para', ['ul', 'ol', 'paragraph']],
+        //         ],
+        //         tooltip: false
+        //     })
+        //     // CodeMirror
+        //     CodeMirror.fromTextArea(document.getElementById("codeMirrorDemo"), {
+        //         mode: "htmlmixed",
+        //         theme: "monokai"
+        //     });
+        // })
+        // $('.my-colorpicker').colorpicker()
+    </script>
+    <script>
+    $(document).ready(function() {
+        // $('#category_id').on('change', function() {
+        // var category_id = this.value;
+        // $("#subcategory_id").html('');
+        //     $.ajax({
+        //         url:"https://www.platinavitrified.com/getsubcategory",
+        //         type: "POST",
+        //         data: {
+        //         category_id: category_id,
+        //         _token: 'ISmQeRChWVfBGPYcVdyE7Gwau0KBrm45Diew98g6'
+        //     },
+        //     dataType : 'json',
+        //         success: function(result){
+        //             $('#subcategory_id').html('<option value="">Select Sub Category</option>');
+        //             $.each(result.songsubcatgory,function(key,value){
+        //                 $("#subcategory_id").append('<option value="'+value.subcategory_id+'">'+value.title+'</option>');
+        //             });
+        //         }
+        //     });
+        // });
+    });
+    </script>
+<!-- <script>
+        </script> -->
+    <!-- AdminLTE App -->
+    <script src="https://www.platinavitrified.com/assets/js/adminlte.min.js"></script>
+    <script src="https://www.platinavitrified.com/assets/js/carousel.js"></script>
+    <script>
+        let carousel = document.getElementsByClassName("carousel");
+        console.log(carousel.length)
+        if (carousel.length > 0) {
+
+            var imagearray =[{"id":4,"maintitle":"","subtitle":"","image":"assets\/images\/discoverslider\/ddplnjb1.png","status":1,"type":"discover","created_at":"2023-08-21T11:27:44.000000Z","updated_at":null},{"id":5,"maintitle":"","subtitle":"","image":"assets\/images\/discoverslider\/mattmarble.png","status":1,"type":"discover","created_at":"2023-08-21T11:27:44.000000Z","updated_at":null},{"id":6,"maintitle":"","subtitle":"","image":"assets\/images\/discoverslider\/matt1.png","status":1,"type":"discover","created_at":"2023-08-28T11:10:21.000000Z","updated_at":null},{"id":7,"maintitle":"","subtitle":"","image":"assets\/images\/discoverslider\/frenchmocha.png","status":1,"type":"discover","created_at":"2023-08-21T11:27:44.000000Z","updated_at":null},{"id":8,"maintitle":"","subtitle":"","image":"assets\/images\/discoverslider\/miamir1.png","status":1,"type":"discover","created_at":"2023-08-21T11:27:44.000000Z","updated_at":null}];
+            const newArrayOfObj = imagearray.map(({
+            image: src,
+            ...rest
+            }) => ({
+                src,
+            ...rest
+            }));
+            //console.log(imagearray);
+            // Refers to the carousel root element you want to target, use specific class selectors if using multiple carousels
+            const el = document.querySelector('.carousel');
+            // Create a new carousel object
+            const exampleCarousel = new Carousel(el,newArrayOfObj);
+            // Setup carousel and methods
+            exampleCarousel.mounted();
+        }
+    </script>
+    <script type="text/javascript"></script>
+    <script>
+        function getunit(val) {
+                if (val == 'sm' || val == 'sf') {
+                $('.nonSquareMeterBlock').css("display", "none");
+                $('.squareMeterBlock').css("display", "block");
+                $('.areainput').css("display", "none");
+            }
+        }
+        function calculate() {
+            var SLength = document.getElementById("SLength").value;
+            var SWidth = document.getElementById("SWidth").value;
+            var sub_cat = document.getElementById("sub_cat").value;
+            var lenwid = parseFloat(SLength) * parseFloat(SWidth);
+            var arr = sub_cat.split('x');
+            var arrwid = arr[0] * 0.00328084;
+            var arrhei = arr[1] * 0.00328084;
+            var area = arrwid * arrhei;
+            var totalarea = lenwid / area;
+            if (SLength && SWidth != '') {
+                $('.xlength').html(SLength + " FT");
+                $('.ylength').html(SWidth + " FT");
+                document.getElementById("ar_mtr").value = parseFloat(SLength) * parseFloat(SWidth);
+                document.getElementById("TotalTiles").value = Math.round(totalarea);
+            }
+        }
+        </script>
+        <script>
+            const counters = document.querySelectorAll('.value');
+            const speed = 200;
+            counters.forEach( counter => {
+            const animate = () => {
+                const value = +counter.getAttribute('akhi');
+                const data = +counter.innerText;
+                const time = value / speed;
+                if(data < value) {
+                    counter.innerText = Math.ceil(data + time);
+                    setTimeout(animate, 1);
+                    }else{
+                    counter.innerText = value;
+                    }
+            }
+            animate();
+            });
+        </script>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (slides.length > 0) {
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        //console.log(i);
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    // console.log(slideIndex);
+                    // console.log(slides);
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2500); // Change image every 2 seconds
+                }
+            }
+        </script>
+</body>
+</html>
